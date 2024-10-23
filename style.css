@@ -1,0 +1,261 @@
+ 
+:root{
+--color-red:#E3646E;
+
+--color-purple:#BB72E9;
+--color-yellow:#EABD5F;
+--color-blue:#3996DB;
+--color-green:#82BC4F;
+--color-grey:#C4C4CC;
+--color-grey2:#C0C4CE;
+--color-grey3:#878EA1;
+--color-black1:#292C34;
+--color-black2:#16181D;
+--color-black3:#0D0E11;
+}
+/* font-family: "Inconsolata", system-ui;
+ font-family: "Asap", system-ui;
+ font-family: "Maven Pro", system-ui;  */
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+ 
+
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #C0C4CE;
+}
+body{
+    width: 100%;
+}
+#profile{
+    margin:56px;
+}
+#title p{
+    color: var(--color-grey2);
+    text-align: center;
+    line-height: 120%;
+    font-family: "Asap";
+    font-size: 20px;
+}
+title{
+    align-items: top center;
+    gap: 8px;
+}
+span{
+    color:#E3646E;
+}
+#title h1{
+    color: whitesmoke;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 120%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#second_Text{
+    font-size: 16px;
+    line-height: 140%;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+#screen_first{
+    background-image: url(Assets/Background_Intro.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+#tags_header{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+#tags_header li{
+    border-radius: 25px;
+    gap: 5px;
+    border: 5px solid var(--color-black1);
+    display: flex;
+    align-items: center;
+    background-color: var(--color-black1);
+    
+}
+#button_icon{
+    margin: 107px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#my_projects{
+    background-color:var(--color-black2);
+
+}
+#header_projects{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    margin-bottom: 56px;
+    align-items: center;
+}
+#header_projects h3{
+    font-family:'Inconsolata';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #E3646E;
+}
+#header_projects p{ 
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #E2E4E9;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}   
+.card{
+    padding: 12px;
+    background-color: #292C34;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    width: calc(70% / 3);
+    height: 250px;
+    justify-content: space-between;
+    border: 1px solid #292C34;
+    border-radius: 12px;
+}
+.g-img{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.title_grade{
+    color: #E2E4E9;
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 16px;
+}
+.card p{
+    color: var(--color-grey2);
+    font-family: 'Maven Pro';
+    font-size: 14px;
+}
+#my_services{
+    padding: 120px;
+    background-color: #0D0E11;
+}
+#text_services{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+  
+    align-items: center;
+
+}
+#text_services h3{
+    font-family:'Inconsolata';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #E3646E;
+}
+#text_services p{
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #E2E4E9;
+}
+#list_services{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    height: 200px;
+}
+.services_li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 155px;
+    padding: 20px;
+    background-color: #16181D;
+    border: 1px solid C0C4CE;
+    border-radius: 12px;
+
+}
+.services_img{
+    width: 25%;
+}
+#footer{
+    background-color: #16181D;
+    padding: 128px 120px 200px 120px;
+}
+.card_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+}
+.card_footer h3{
+    font-family:'Inconsolata';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #BB72E9;
+}
+.card_footer h2{
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color:#E2E4E9;
+}
+card_footer{
+    font-family: "Maven Pro", system-ui; 
+    color: #C0C4CE;
+}
+.linhas{
+    gap: 50px;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_footer{
+    padding: 5px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+#linha1{
+    margin-top:50px;
+    padding: 10px;
+    background-color: #292C34;
+    justify-content: space-around;
+    gap:50px;
+    border:1px solid black;
+    border-radius: 12px;
+}
